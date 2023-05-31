@@ -1,5 +1,9 @@
 # GitClarity
 
+![GitHub License](https://img.shields.io/github/license/rajtilakjee/GitClarity?style=for-the-badge)
+[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?logo=twitter&logoColor=FFFFFF&style=for-the-badge)](https://twitter.com/rajtilakjee)
+[![GitHub Sponsor](https://img.shields.io/badge/-Sponsor-EA4AAA?logo=githubsponsors&logoColor=FFFFFF&style=for-the-badge)](https://github.com/sponsors/rajtilakjee)
+
 ## Overview
 
 GitClarity is an Edge add-on that provides detailed information about GitHub repositories. With just a single click on a GitHub repository, GitClarity presents users with a comprehensive description of how that repository works. This add-on is built using OpenAI, JavaScript, and HTML, and it operates using the BYOK (Bring Your Own Key) model, where users need to enter their OpenAI key to utilize its features.
