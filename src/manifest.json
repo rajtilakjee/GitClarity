@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "GitClarity",
+    "author": "Rajtilak Bhattacharjee",
+    "version": "0.0.1",
+    "description": "The AI-powered GitHub repository summarizer for faster code comprehension.",
+    "permissions": [
+    "activeTab",
+    "storage"
+  ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "GitClarity"
+  },
+    "options_page": "options.html"
+}

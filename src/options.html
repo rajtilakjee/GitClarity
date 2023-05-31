@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitClarity - Options</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Lato', sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            width: 500px;
+            height: 150px;
+            background-color: #f7f7f7;
+            margin: 0 auto;
+            color: #333;
+        }
+        /* Specific Styles */
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 5px;
+            text-align: center;
+            color: #fff;
+            background-color: #0077b6;
+            padding: 10px;
+        }
+        label {
+            font-family: 'Lato', sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 20px;
+            padding-top: 30px;
+            padding-left: 5px;
+        }
+        input[type="text"] {
+            width: 300px;
+            padding: 7px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+        button {
+            background-color: #0077b6;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 15px;
+            font-size: 14px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        footer {
+            font-family: 'Lato', sans-serif;
+            font-size: 12px;
+            text-align: center;
+            color: #fff;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: #36454f;
+        }
+        footer a {
+        font-family: 'Lato', sans-serif;
+        color: #fff;
+        text-decoration: none;
+        }
+        footer a:hover {
+        text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>GitClarity - Options</h1>
+    <br />
+    <form>
+        <label for="api-input">Please enter your OpenAI API Key:</label><br />
+        <input id="api-input" type="text" placeholder="API Key" required>
+        <button id="submit-btn" type="submit">Submit</button>
+    </form><br />
+    <footer>
+        &copy; 2023 Rajtilak Bhattacharjee | <a href="https://github.com/rajtilakjee/gitclarity/blob/main/privacy-policy.md" target="_blank">Privacy Policy</a>
+    </footer>
+    <script src="options.js"></script>
+</body>
+</html>
